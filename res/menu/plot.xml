@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="de.mcdax.graphplot.MainActivity" >
+
+
+              <item android:id="@+id/moreOptions"
+          android:orderInCategory="2"
+          android:icon="@drawable/ic_action_expand"
+          android:title="@string/options"
+          android:showAsAction="ifRoom" />
+              
+     <item android:id="@+id/fft"
+          android:orderInCategory="1"
+          android:icon="@drawable/ic_action_fft"
+          android:title="@string/title_activity_fft_plot"
+          android:showAsAction="ifRoom" />
+     
+
+
+</menu>

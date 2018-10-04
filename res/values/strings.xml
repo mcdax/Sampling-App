@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SamplingApp</string>
+    <string name="function">Funktion (nach t):</string>
+    <string name="samplingrate">Abtastfrequenz:</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fft_plot">Frequenzbild</string>
+    <string name="startDarstellung">Anfänglicher Darstellungsbereich:</string>
+    <string name="sample">Abtasten</string>
+    <string name="hz">Hz</string>
+    <string name="amount">Betrag</string>
+    <string name="phase">Phase</string>
+    <string name="options">Optionen</string>
+    <string name="original">Original</string>
+    <string name="sampled">Abgetastet</string>
+    <string name="bothLimitsHaveToBeThere">Es müssen beide Grenzen angegeben werden!</string>
+    <string name="bothLimitsMustNotBeSame">Die beiden Grenzen dürfen nicht gleich sein!</string>
+    <string name="lowerLimitHasToBeLowerThanTheUpper">Die untere Grenze muss niedriger sein als die Obere!</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">Ok</string>
+    <string name="insertFunction">Bitte eine Funktion eingeben!</string>
+    <string name="missT">Die Funktion muss die Variable t enthalten!</string>
+    <string name="missValueForSampleRate">Bitte einen Wert für die Abtastfrequenz eingeben!</string>
+    <string name="inRange">Im Bereich:</string>
+    <string name="from">"   von"</string>
+    <string name="to">" bis "</string>
+    <string name="currentView">Aktuelle Ansicht</string>
+    <string name="ord0">0. Ordnung</string>
+    <string name="ord1">1. Ordnung</string>
+    <string name="siFunc">si</string>
+    <string name="origFunc">Originalfunktion</string>
+    <string name="errorFunc">Fehlerfunktion</string>
+    <string name="intFunc">Interpolation</string>
+    
+    
+
+</resources>

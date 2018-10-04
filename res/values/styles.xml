@@ -1,0 +1,50 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+<color name="color_black">#000000</color>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+              
+                         <item name="android:actionBarStyle">@style/MyActionBar</item>
+                        <item name="android:windowBackground">@color/color_black</item>
+                         
+        
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+        <style name="MyActionBar"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+                <item name="android:titleTextStyle">@style/TitleColor</item>
+            
+    </style>
+    
+      <style name="MainTheme" parent="AppBaseTheme">
+        
+          
+    </style>
+
+
+    <style name="dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/slide_down</item>
+        <item name="android:windowExitAnimation">@anim/slide_up</item>
+    </style>
+    
+
+
+    <style name="TitleColor" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#E6E6E6</item>
+    </style>
+
+</resources>
